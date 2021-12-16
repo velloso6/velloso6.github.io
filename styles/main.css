@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+body{
+  margin: 0%;
+  padding: 0%;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  z-index: 5;
+}
+
+.blue-line{
+  width: 100%;
+  height: 14px;
+  background-color: #2884B2;
+}
+
+.cabecalho{
+background-color: #E20D0D;
+width: 100%;
+display: flex;
+justify-content: space-between;
+padding: 27px 10%;
+align-items: center;
+}
+
+.logo-senai{
+  height: fit-content;
+}
+
+.informacao p, .informacao b{
+margin: 0%;
+color: white;
+font-family: 'Roboto', sans-serif;
+}
+
+.informacao p{
+  font-size: 14px;
+}
+
+.informacao b{
+  font-size: 18px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: "\2022";
+  color: #E20D0D;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
+.apresentacao{
+  display: flex;
+  padding: 24px 10%;
+  justify-content: space-between;
+}
+
+.apresentacao-texto{
+  width: 33%;
+  margin-top: 30px;
+}
+
+.apresentacao-texto h1{
+  font-size: 46px;
+}
+
+.apresentacao-texto span{
+  color: #E20D0D;
+}
+
+.svg{
+  width: 40%;
+}
+
+.down {
+  padding: 0% 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.clique {
+  background-color: #E20D0D ;
+  padding: 50px;
+  border: 5px solid #2884B2;
+  border-radius: 15px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.feedback{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-top: 50px;
+} 
+
+.icone{
+  width: fit-content;
+  height: 50px;
+}
+
+.form-select{
+  height: 35px;
+  width: 190px;
+  border-radius: 6%;
+  border-color: #807e7e;
+}
+
+.botao-vermelho{
+  margin-top: 15px;
+  color: white;
+  background-color: #E20D0D;
+}
+
+.botao-clique{
+  margin-top: 26px;
+  color: white;
+  background-color: #2884B2;
+}
+
+.bg {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url(https://i.ibb.co/yF89KSp/background.jpg) center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: .2;
+  width: 100%;
+  height: 100%;
+}
+
+.rodape{
+  width: 100%;
+background-color: #2884B2;
+padding: 0%;
+text-align: center;
+color: white;
+font-size: 8px;
+opacity: 0.8;
+}
+
+.blue-info{
+  margin: 0%;
+  margin-top: 25px;
+}
+
+.rodape p{
+margin-top: 15px;
+}
+
+.botao-red{
+  color: white;
+  background-color: #E20D0D;
+}
